@@ -8,7 +8,6 @@ set :scm, :git
 set :deploy_via, :remote_cache
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules", "Capfile", "Gemfile", "Gemfile.lock", "config/", "lib/"]
 set :use_sudo, false
-set :site_root, "#{deploy_to}/#{current_dir}"
 set :keep_releases, 2
 
 
@@ -16,7 +15,7 @@ set :keep_releases, 2
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/#{application}"
+set :deploy_to, "/var/www/misteriodoplaneta"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
