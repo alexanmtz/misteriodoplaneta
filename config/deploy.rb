@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:alexanmtz/misteriodoplaneta.git"
 
 set :deploy_via, :remote_cache
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules", "Capfile", "Gemfile", "Gemfile.lock", "config/", "lib/"]
-set :use_sudo, false
+set :use_sudo, true
 set :pty, true
 
 set :keep_releases, 2
