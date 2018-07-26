@@ -16,8 +16,8 @@ set :keep_releases, 2
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/u614892177/public_html/misteriodoplaneta"
-set :tmp_dir, "/home/u614892177/deploy"
+set :deploy_to, "/home/u614892177/misteriodoplaneta"
+set :tmp_dir, "/home/u614892177/tmp"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
