@@ -19,6 +19,8 @@ set :keep_releases, 2
 set :deploy_to, "/home/u614892177/misteriodoplaneta"
 set :tmp_dir, "/home/u614892177/tmp"
 
+set :linked_dirs, %w(wordpress/wp-content/uploads wordpress/wp-content/themes wordpress/wp-content/plugins)
+
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
